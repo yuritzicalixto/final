@@ -66,7 +66,9 @@ class ReservationItem extends Model
      */
     public function product(): BelongsTo
     {
-        return $this->belongsTo(Product::class);
+        // Incluir productos con SoftDelete para que las reservaciones
+        // sigan mostrando el nombre del producto aunque haya sido eliminado
+        return $this->belongsTo(Product::class)->withTrashed();
     }
 
     // =====================================================

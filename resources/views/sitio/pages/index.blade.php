@@ -264,21 +264,21 @@
         <!-- Grid -->
         <div class="gallery__grid">
           <figure class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80" alt="Colorimetría" loading="lazy">
+            <img src="{{ asset('sitio/img/assets/6.jpg') }}" alt="Colorimetría" loading="lazy">
             <div class="gallery__overlay">
               <span class="gallery__caption">Colorimetría</span>
             </div>
           </figure>
 
           <figure class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=800&q=80" alt="Corte" loading="lazy">
+            <img src="{{ asset('sitio/img/assets/man.jpg') }}" alt="Corte" loading="lazy">
             <div class="gallery__overlay">
               <span class="gallery__caption">Corte</span>
             </div>
           </figure>
 
           <figure class="gallery__item">
-            <img src="https://images.pexels.com/photos/23349912/pexels-photo-23349912.jpeg?_gl=1*19lc00s*_ga*MTI4ODkzNzY2MC4xNjcxMjU0NDkz*_ga_8JE65Q40S6*czE3NzA3NjcwMTEkbzIzJGcxJHQxNzcwNzY3NTE5JGo0MiRsMCRoMA.." alt="Alisado" loading="lazy">
+            <img src="{{ asset('sitio/img/assets/alizado.jpg') }}" alt="Alisado" loading="lazy">
             <div class="gallery__overlay">
               <span class="gallery__caption">Alisado</span>
             </div>
@@ -299,7 +299,7 @@
           </figure>
 
           <figure class="gallery__item">
-            <img src="https://images.unsplash.com/photo-1526040652367-ac003a0475fe?auto=format&fit=crop&w=800&q=80" alt="Pestañas" loading="lazy">
+            <img src="{{ asset('sitio/img/assets/pestania.jpg') }}" alt="Pestañas" loading="lazy">
             <div class="gallery__overlay">
               <span class="gallery__caption">Pestañas</span>
             </div>

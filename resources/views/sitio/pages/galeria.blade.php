@@ -32,7 +32,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80" alt="Mechas rubias" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/gris.jpg') }}" alt="Mechas rubias" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Mechas Platinadas</span>
                 <span class="gallery-masonry__desc">Contraste perfecto</span>
@@ -40,7 +40,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=800&q=80" alt="Color fantasía" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/mechas.jpg') }}" alt="Color fantasía" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Color Cobrizo</span>
                 <span class="gallery-masonry__desc">Tonos vibrantes y elegantes</span>
@@ -82,7 +82,7 @@
 
           <div class="gallery-masonry">
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=800&q=80" alt="Corte bob" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/bob.jpg') }}" alt="Corte bob" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Bob Moderno</span>
                 <span class="gallery-masonry__desc">Líneas limpias y elegantes</span>
@@ -90,7 +90,7 @@
             </figure>
 
             <figure class="gallery-masonry__item gallery-masonry__item--tall">
-              <img src="https://images.unsplash.com/photo-1527799820374-9f61f297199d?auto=format&fit=crop&w=800&q=80" alt="Corte largo" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/balayage.jpg') }}" alt="Corte largo" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Capas Largas</span>
                 <span class="gallery-masonry__desc">Movimiento y volumen</span>
@@ -98,7 +98,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1605980776721-e5a8d7fd0b1f?auto=format&fit=crop&w=800&q=80" alt="Corte pixie" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/2.jpg') }}" alt="Corte pixie" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Pixie Cut</span>
                 <span class="gallery-masonry__desc">Atrevido y moderno</span>
@@ -106,7 +106,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=800&q=80" alt="Corte masculino" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/barba.jpg') }}" alt="Corte masculino" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Fade Clásico</span>
                 <span class="gallery-masonry__desc">Degradado perfecto</span>
@@ -122,7 +122,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80" alt="Corte con flequillo" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/fleco.jpg') }}" alt="Corte con flequillo" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Flequillo Cortina</span>
                 <span class="gallery-masonry__desc">Enmarca el rostro</span>
@@ -140,7 +140,7 @@
 
           <div class="gallery-masonry">
             <figure class="gallery-masonry__item gallery-masonry__item--wide">
-              <img src="https://images.unsplash.com/photo-1520975958225-75c9f1a3f7a7?auto=format&fit=crop&w=1200&q=80" alt="Alisado keratina" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/ad.jpg') }}" alt="Alisado keratina" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Keratina Brasileña</span>
                 <span class="gallery-masonry__desc">Transformación total - Antes y después</span>
@@ -148,7 +148,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1599305090598-fe179d501227?auto=format&fit=crop&w=800&q=80" alt="Tratamiento brillo" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/brillo.jpg') }}" alt="Tratamiento brillo" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Brillo Intenso</span>
                 <span class="gallery-masonry__desc">Hidratación profunda</span>
@@ -156,7 +156,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Botox capilar" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/ma.jpg') }}" alt="Botox capilar" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Botox Capilar</span>
                 <span class="gallery-masonry__desc">Rejuvenecimiento</span>
@@ -164,7 +164,7 @@
             </figure>
 
             <figure class="gallery-masonry__item gallery-masonry__item--tall">
-              <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&q=80" alt="Ondas suaves" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/5.jpg') }}" alt="Ondas suaves" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Ondas Suaves</span>
                 <span class="gallery-masonry__desc">Efecto natural</span>
@@ -172,7 +172,7 @@
             </figure>
 
             <figure class="gallery-masonry__item">
-              <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=800&q=80" alt="Reparación" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/res.jpg') }}" alt="Reparación" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Reparación Total</span>
                 <span class="gallery-masonry__desc">Cabello dañado restaurado</span>
@@ -214,7 +214,7 @@
             </figure>
 
             <figure class="gallery-masonry__item gallery-masonry__item--wide">
-              <img src="https://images.unsplash.com/photo-1526040652367-ac003a0475fe?auto=format&fit=crop&w=1200&q=80" alt="Lifting pestañas" loading="lazy">
+              <img src="{{ asset('sitio/img/assets/pestania.jpg') }}" alt="Lifting pestañas" loading="lazy">
               <figcaption>
                 <span class="gallery-masonry__title">Lifting de Pestañas</span>
                 <span class="gallery-masonry__desc">Mirada definida</span>

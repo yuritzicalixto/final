@@ -116,10 +116,10 @@
                                             <i class="fa-solid fa-pen-to-square text-sm"></i>
                                         </a>
 
-                                        {{-- Eliminar --}}
+                                        {{-- Eliminar (formulario SIN onsubmit, SweetAlert2 lo maneja) --}}
                                         <form action="{{ route('admin.services.destroy', $service) }}"
                                               method="POST"
-                                              onsubmit="return confirm('¿Estás seguro de eliminar este servicio?')">
+                                              class="form-delete-service">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit"
@@ -151,5 +151,34 @@
             </div>
         @endif
     </div>
+
+    {{-- SweetAlert2 para confirmación de eliminación (mismo estilo que Usuarios) --}}
+    @push('js')
+        <script>
+            // Selecciona todos los formularios de eliminar servicio
+            document.querySelectorAll('.form-delete-service').forEach(form => {
+                form.addEventListener('submit', function(e) {
+                    // Previene el envío inmediato del formulario
+                    e.preventDefault();
+
+                    Swal.fire({
+                        title: '¿Estás seguro?',
+                        text: '¡No podrás revertir esto!',
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonColor: '#3085d6',
+                        cancelButtonColor: '#d33',
+                        confirmButtonText: '¡Sí, bórralo!',
+                        cancelButtonText: 'Cancelar',
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            // Si el usuario confirma, envía el formulario
+                            form.submit();
+                        }
+                    });
+                });
+            });
+        </script>
+    @endpush
 
 </x-admin-layout>
